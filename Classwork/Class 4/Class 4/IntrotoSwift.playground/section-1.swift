@@ -61,3 +61,34 @@ println(amIHere)
 //? sets optional and ! unwraps it
 
 
+/*********** Control Flow **************/
+
+var myAge = 22
+if myAge < 21 {
+    println("You can't get in!")
+}else  if myAge == 21 {
+    println("Free drinks!")
+}else if myAge > 21 && myAge < 25 {
+    println("You can drink, but you can't rent a car")
+}else {
+    println("You can party!")
+}
+//can also use <= and >= for less/greater than equal to, as well as == equal to and != for not equal to
+//if sets up condition. else if adds a second condition, if it's true you never get to else so be careful of order you use. Else does something if nothing else is true.
+
+// for initialization; condition; increment
+for var i = 1; i < 5; ++i {
+println("Code is running \(i)")
+}
+
+//for n loop
+for index in 1...5 {
+    println(index)
+}
+
+//while loop. While condition is true, execute loop
+var k = 1
+while k < 10 {
+    println("counting")
+    ++k
+}
