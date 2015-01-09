@@ -22,7 +22,7 @@ var x = sum(10,20)
 var y = sum(x, 15)
 
 
-func fib(#place place: Int)-> Int{
+func fib(place place: Int)-> Int{
 var fibNum = place, current = 0, next = 1, result = 0
 for index  in 0..<fibNum {
     //current val is 3
