@@ -80,7 +80,7 @@ calculateSum(100,50)
 // Within the function we have a loop that runs x ammount of times that calls the knock knock function
 
 func knockMultipleTimes(howMany: Int) {
-    for index in in...howMany {
+    for index in 0...howMany {
      knockknock()
     }
 }
