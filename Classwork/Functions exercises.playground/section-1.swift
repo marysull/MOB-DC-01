@@ -59,7 +59,7 @@ fib(6)
 func sumTwentyFibs() {
 var sum = 0
         for index in 0..<20 {
-    sum +=fib(index)
+    sum += fib(index)
         }
         println(sum)
 }
@@ -72,16 +72,19 @@ sumTwentyFibs()
     return value >= 2
             }
     println("\(value) is a prime")
-    if value % 2 == 0 || value % 3 == 0 {return false
-    }println("\(value) is not a prime")
+    if value % 2 == 0 || value % 3 == 0 {
+                return false
+    }
+    println("\(value) is not a prime")
             for  var i = 5; i * i <= value; i += 6 {
-                if value % i == 0 || value % (i+2) == 0 {
+        println("\(value) is not a prime")
+        if value % i == 0 || value % (i+2) == 0 {
                     return false
-                } println("\(value) is not a prime")
-            }
-            return true
-}println("\(value) is a prime.")
-  
+        }
+    }
+    return true
+println("\(value) is a prime.")
+}
     
 
 // TODO: Write a function that prints out each of the first 20 fibonacci numbers and whether they are prime. (e.g. 0 is not prime or composite, 1 is prime, etc)
@@ -98,18 +101,21 @@ func fibPrime() {
                 }
     }
 }
-
+//
 // TODO: Write a function that takes in two numbers, a bill amount and an optional tip percentage (represented as a float, e.g. .2 = 20% tip). Return a tuple with the total bill amount and the tip amount (if included).
-
-func totalBill(bill: Float, percent: Float?) -> (total:Double, tip:Double) {
-    let tip = bill * percent
-    let total = bill + tip
-    if let gratuity = tip {
-         != nil
+//
+//
+func totalBill(bill: Float, percent: Float?) -> (total:Float, tip:Float) {
+    
+    if let gratuity = percent {
+        let tip = bill * gratuity
+        let total = bill + tip
+        return (total, tip)
+    }else {
+        return (bill, 0.0)
     }
-    return (Double:\(total), Double:\(tip))
-     else {        return (Double:\(total), 0}
 }
+
 
 // TODO: Write a function that takes in a string and returns a string that is the reverse of the input. Append two strings using the + operator.
 
