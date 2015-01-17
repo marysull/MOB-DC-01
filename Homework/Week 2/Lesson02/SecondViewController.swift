@@ -16,10 +16,13 @@ class SecondViewController: UIViewController {
     
     
     @IBOutlet weak var sumOfNumbersLabel: UILabel!
-    
-    
+
+    var sum = 0
     
     @IBAction func addButton(sender: AnyObject) {
+        let newNumber = enterNumberField.text.toInt()
+        sum += newNumber!
+        sumOfNumbersLabel.text = "\(sum)"
     }
     
     

@@ -29,9 +29,9 @@ class FirstViewController: UIViewController {
         if giveAge.text.toInt() > 21 {
             return "You can drink  "
         }else if giveAge.text.toInt() >= 18 {
-            return " You can vote"
+            return " You can vote.   "
         }else if giveAge.text.toInt() >= 16 {
-            return "You can drive  "
+            return "You can drive.  "
         } else {
         return "Grow up!  "
         }
