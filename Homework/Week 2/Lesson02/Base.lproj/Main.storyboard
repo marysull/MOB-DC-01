@@ -195,7 +195,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Should print 'is even' or 'is not even'" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y0y-Zz-8RE">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Should print 'is even' or 'is not even'" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y0y-Zz-8RE">
                                 <rect key="frame" x="160" y="140" width="280" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="JcZ-ys-1oS"/>
@@ -238,7 +238,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="enterNumberField" destination="UJA-B5-7Cz" id="Wqg-HP-XrI"/>
-                        <outlet property="showEvenOrNot" destination="JcZ-ys-1oS" id="7wQ-m9-G5s"/>
+                        <outlet property="showEvenOrNot" destination="y0y-Zz-8RE" id="ZQX-lY-dBS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bic-8V-fDA" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -264,7 +264,7 @@
                                     <constraint firstAttribute="height" constant="30" id="aeb-HN-VWt"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uuM-Ik-raV">
                                 <rect key="frame" x="268" y="180" width="65" height="30"/>
@@ -275,6 +275,9 @@
                                 <state key="normal" title="Calculate">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calcFibButton:" destination="BPG-Q0-b6p" eventType="touchUpInside" id="vkT-uy-vS6"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Should print the xth fibonacci number" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hpk-q1-6qc">
                                 <rect key="frame" x="155" y="138" width="290" height="21"/>
@@ -297,6 +300,10 @@
                             <constraint firstItem="uuM-Ik-raV" firstAttribute="top" secondItem="Hpk-q1-6qc" secondAttribute="bottom" constant="21" id="scm-VI-6lk"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="enterFibPlace" destination="Y9T-1j-GS4" id="M9A-ak-Thf"/>
+                        <outlet property="showFibPlace" destination="Hpk-q1-6qc" id="gVa-ai-oGr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LL4-Hq-ZaT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

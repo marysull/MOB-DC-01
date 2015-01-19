@@ -21,6 +21,9 @@ class FirstViewController: UIViewController {
 
     
     @IBOutlet weak var giveAge: UITextField!
+    
+    @IBOutlet weak var textDisplay: UILabel!
+
 
     func nameAgeGreeting() -> String {
         return "Hello \(giveName.text), you are \(giveAge.text) years old!   "
@@ -49,12 +52,11 @@ class FirstViewController: UIViewController {
         }
     }
 
-    @IBOutlet weak var textDisplay: UILabel!
     
     @IBAction func generateText(sender: AnyObject) {
-            var basicGreeting:String = "Hello, world!     "
-            textDisplay.text = "\(basicGreeting)" + nameAgeGreeting() + ageAbilitiesBasic() + ageAbilitiesExtended()
-            textDisplay.hidden = false
+        var basicGreeting:String = "Hello, world!     "
+        textDisplay.text = "\(basicGreeting)" + nameAgeGreeting() + ageAbilitiesBasic() + ageAbilitiesExtended()
+        textDisplay.hidden = false
     }
         
   
