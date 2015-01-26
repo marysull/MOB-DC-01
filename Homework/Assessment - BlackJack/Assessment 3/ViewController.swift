@@ -23,35 +23,42 @@ class ViewController: UIViewController {
     // Bonus 2: Player can start with a pool of money (selected through a text field) and make bets for each game (through a text field again). If player reaches <= 0, don't allow them to play any more games.
     // Bonus 3: When handing out cards, display the actual value to the user. If the card is an Ace, let the user select either 1 or 11.
     
-    @IBOutlet var gameStatusLabel: UIView!
+    @IBOutlet weak var gameStatusLabel: UILabel!
+    
+    @IBOutlet weak var dealerScoreLabel: UILabel!
+    
     var game = CardGame()
-    
-    
-    @IBOutlet weak var redBox: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.game.firstHand()
-        self.gameStatusLabel.text = "Your current score is \(self.firstDeal.text) and the dealer is standing at \(self.dealerScore.text)"
+        self.gameStatusLabel.text = "Your current cards are \(self.game.card1) and \(self.game.card2)"
+        self.dealerScoreLabel.text = "The dealer has \(self.game.dealerScore)."
     }
-
-
-
-    class NewPlayer: Player, BlackJack {
-        var card1:Int = Int(arc4random() % 11) + 1
-        var card2:Int = Int(arc4random() % 11) + 1
-        func firstHand() -> Int {
-            let firstHandSum:Int = card1 + card2
-            return firstHandSum
+    
+    @IBAction func tap2HitMe(sender: UITapGestureRecognizer) {
+        if game.playerScore < 22 {
+            self.game.deal()
+            self.gameStatusLabel.text = "Your current score is \(self.game.playerScore)"
+            if self.game.playerScore == 21 {
+                self.gameStatusLabel.text = "21! BlackJack! You win!"
+            }else {
+                self.gameStatusLabel.text = "Your current score is \(self.game.playerScore)"
+            }
+            
         }
-    }
-        
-    
-    
-    @IBAction func tapTwiceHitMe(sender: UITapGestureRecognizer) {
+        if game.playerScore > 21 {
+            self.gameStatusLabel.text = "Over 21--busted! You lose! "
+        }
     }
 
     @IBAction func swipeRightTotalCompare(sender: UISwipeGestureRecognizer) {
+        if self.game.playerScore > self.game.dealerScore && self.game.playerScore < 22 {
+            self.gameStatusLabel.text = "You win! Your score is \(self.game.playerScore)."
+        }
+        else {
+            self.gameStatusLabel.text = "You lose! Your score is \(self.game.playerScore). "
+        }
     }
     
 }

@@ -16,25 +16,26 @@ protocol BlackJack {
 //    func addCard() -> Int
 ////    // Require a first hand method
 //    func firstHand()->Int
+//I had to comment out the protocols, even the functions, bc Xcode would not let me proceed with class definition while using the protocol. Love some clarity here.
     }
 
 class CardGame: BlackJack {
     var card1 = 0
     var card2 = 0
-    var firstDeal = 0
+    var playerScore = 0
     var hitMe = 0
     var dealerScore = 0
     
     func firstHand()  {
         self.card1 = Int(arc4random_uniform(10)+1)
         self.card2 = Int(arc4random_uniform(10)+1)
-        self.firstDeal = self.card1 + self.card2 //adds the first two cards
+        self.playerScore = self.card1 + self.card2 //adds the first two cards
         self.dealerScore = Int(arc4random_uniform(9)+12)
     }
     
     func deal() {
         self.hitMe = Int(arc4random_uniform(10)+1) //generates another card
-        self.firstDeal = self.hitMe + self.firstDeal //sums the cards
+        self.playerScore = self.hitMe + self.playerScore //sums the cards
     }
 
 }

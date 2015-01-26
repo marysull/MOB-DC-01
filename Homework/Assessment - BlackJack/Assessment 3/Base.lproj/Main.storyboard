@@ -28,7 +28,7 @@
                                     <outletCollection property="gestureRecognizers" destination="z0g-g2-179" appends="YES" id="6qr-sI-Nzs"/>
                                 </connections>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BlackJack" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xBz-Tp-YFE">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BlackJack" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xBz-Tp-YFE">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -49,6 +49,15 @@
                                     <segue destination="8IH-ar-xyl" kind="show" id="d9H-Pi-dWC"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dealer" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pFn-P3-vH9">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="209" width="368" height="59"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -56,6 +65,7 @@
                                 <exclude reference="VLj-XE-fcY"/>
                                 <exclude reference="xBz-Tp-YFE"/>
                                 <exclude reference="oBa-bq-sus"/>
+                                <exclude reference="pFn-P3-vH9"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -63,20 +73,20 @@
                                 <include reference="VLj-XE-fcY"/>
                                 <include reference="xBz-Tp-YFE"/>
                                 <include reference="oBa-bq-sus"/>
+                                <include reference="pFn-P3-vH9"/>
                             </mask>
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" id="kye-4f-Ber"/>
                     <connections>
-                        <outlet property="blackjackLabel" destination="xBz-Tp-YFE" id="ok8-Cq-R64"/>
-                        <outlet property="gameStatusLabel" destination="kh9-bI-dsS" id="ATm-Xl-3Ee"/>
-                        <outlet property="redBox" destination="VLj-XE-fcY" id="Vv1-Uh-GQ7"/>
+                        <outlet property="dealerScoreLabel" destination="pFn-P3-vH9" id="awp-9n-7ug"/>
+                        <outlet property="gameStatusLabel" destination="xBz-Tp-YFE" id="OWM-bb-iRB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer numberOfTapsRequired="2" id="uak-ke-VCr">
                     <connections>
-                        <action selector="tapTwiceForCard:" destination="vXZ-lx-hvc" id="OOk-va-hBq"/>
+                        <action selector="tap2HitMe:" destination="vXZ-lx-hvc" id="Tvj-bw-pCV"/>
                     </connections>
                 </tapGestureRecognizer>
                 <swipeGestureRecognizer direction="right" id="z0g-g2-179">
