@@ -11,11 +11,13 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var swipeLabel: UIView!
 
+
+    @IBOutlet weak var displayTableView: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
          initiateModalSwipeRight()
-        tapButtonTableVC()
+        buttonTableVC(sender: UIButton)
     }
     
     func initiateModalSwipeRight() {
@@ -36,9 +38,9 @@ class ViewController: UIViewController {
 //        self.performSegueWithIdentifier("showTableVC", sender: self)//calls the named seque
 //    }
     
-    @IBAction func buttonTableVC(sender: UIButton) {
-        let tapTableVC = UITapGestureRecognizer() //sets gesture. 1 tap is default
-        self.view.addGestureRecognizer(tapTableVC)//assigns to button
+    func buttonTableVC(sender: UIButton) {
+        let tapTableVC = UITapGestureRecognizer(target: self, action: "tapTableButtonVC:")//sets gesture. 1 tap is default
+        self.displayTableView.addGestureRecognizer(tapTableVC)//assigns to button
     }
     func tapButtonTableVC() {
         self.performSegueWithIdentifier("showTableVC", sender: self)//calls the named seque

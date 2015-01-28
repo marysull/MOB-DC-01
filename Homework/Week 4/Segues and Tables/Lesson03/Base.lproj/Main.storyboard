@@ -41,9 +41,6 @@
                                 <state key="normal" title="Display Table View">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <action selector="buttonTableVC:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="CrL-eu-RQ9"/>
-                                </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t0k-8x-tOe">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -72,6 +69,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="hzY-Hy-RMA"/>
                     <connections>
+                        <outlet property="displayTableView" destination="AG3-bY-Vru" id="eRn-C2-GCO"/>
                         <outlet property="swipeLabel" destination="t0k-8x-tOe" id="yin-51-Hfy"/>
                         <segue destination="tH5-nV-9zA" kind="show" identifier="showTableVC" id="O1F-Kb-DN0"/>
                         <segue destination="TDx-30-Rh6" kind="presentation" identifier="showSecondVC" id="2B7-Vn-Vgd"/>
