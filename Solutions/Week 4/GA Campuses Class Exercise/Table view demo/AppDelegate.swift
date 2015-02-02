@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  SimpleEventTracker
+//  Table view demo
 //
-//  Created by Mary Sullivan on 1/30/15.
-//  Copyright (c) 2015 Mary Sullivan. All rights reserved.
+//  Created by Tedi Konda on 1/28/15.
+//  Copyright (c) 2015 Tedi Konda. All rights reserved.
 //
 
 import UIKit

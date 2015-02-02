@@ -1,15 +1,15 @@
 //
-//  SimpleEventTrackerTests.swift
-//  SimpleEventTrackerTests
+//  Table_view_demoTests.swift
+//  Table view demoTests
 //
-//  Created by Mary Sullivan on 1/30/15.
-//  Copyright (c) 2015 Mary Sullivan. All rights reserved.
+//  Created by Tedi Konda on 1/28/15.
+//  Copyright (c) 2015 Tedi Konda. All rights reserved.
 //
 
 import UIKit
 import XCTest
 
-class SimpleEventTrackerTests: XCTestCase {
+class Table_view_demoTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

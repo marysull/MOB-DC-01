@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:SimpleEventTracker.xcodeproj">
+      location = "self:Table view demo.xcodeproj">
    </FileRef>
 </Workspace>

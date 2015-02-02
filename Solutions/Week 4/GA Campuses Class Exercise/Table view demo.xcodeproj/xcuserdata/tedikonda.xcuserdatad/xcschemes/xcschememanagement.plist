@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>SimpleEventTracker.xcscheme</key>
+		<key>Table view demo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>FB60C81F1A7C340100A19B7E</key>
+		<key>7C9A7C671A79B7F800C814D3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FB60C8341A7C340100A19B7E</key>
+		<key>7C9A7C7C1A79B7F800C814D3</key>
 		<dict>
 			<key>primary</key>
 			<true/>

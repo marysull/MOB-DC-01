@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FB60C81F1A7C340100A19B7E"
-               BuildableName = "SimpleEventTracker.app"
-               BlueprintName = "SimpleEventTracker"
-               ReferencedContainer = "container:SimpleEventTracker.xcodeproj">
+               BlueprintIdentifier = "7C9A7C671A79B7F800C814D3"
+               BuildableName = "Table view demo.app"
+               BlueprintName = "Table view demo"
+               ReferencedContainer = "container:Table view demo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FB60C8341A7C340100A19B7E"
-               BuildableName = "SimpleEventTrackerTests.xctest"
-               BlueprintName = "SimpleEventTrackerTests"
-               ReferencedContainer = "container:SimpleEventTracker.xcodeproj">
+               BlueprintIdentifier = "7C9A7C7C1A79B7F800C814D3"
+               BuildableName = "Table view demoTests.xctest"
+               BlueprintName = "Table view demoTests"
+               ReferencedContainer = "container:Table view demo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FB60C8341A7C340100A19B7E"
-               BuildableName = "SimpleEventTrackerTests.xctest"
-               BlueprintName = "SimpleEventTrackerTests"
-               ReferencedContainer = "container:SimpleEventTracker.xcodeproj">
+               BlueprintIdentifier = "7C9A7C7C1A79B7F800C814D3"
+               BuildableName = "Table view demoTests.xctest"
+               BlueprintName = "Table view demoTests"
+               ReferencedContainer = "container:Table view demo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FB60C81F1A7C340100A19B7E"
-            BuildableName = "SimpleEventTracker.app"
-            BlueprintName = "SimpleEventTracker"
-            ReferencedContainer = "container:SimpleEventTracker.xcodeproj">
+            BlueprintIdentifier = "7C9A7C671A79B7F800C814D3"
+            BuildableName = "Table view demo.app"
+            BlueprintName = "Table view demo"
+            ReferencedContainer = "container:Table view demo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -75,10 +75,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FB60C81F1A7C340100A19B7E"
-            BuildableName = "SimpleEventTracker.app"
-            BlueprintName = "SimpleEventTracker"
-            ReferencedContainer = "container:SimpleEventTracker.xcodeproj">
+            BlueprintIdentifier = "7C9A7C671A79B7F800C814D3"
+            BuildableName = "Table view demo.app"
+            BlueprintName = "Table view demo"
+            ReferencedContainer = "container:Table view demo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -93,10 +93,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FB60C81F1A7C340100A19B7E"
-            BuildableName = "SimpleEventTracker.app"
-            BlueprintName = "SimpleEventTracker"
-            ReferencedContainer = "container:SimpleEventTracker.xcodeproj">
+            BlueprintIdentifier = "7C9A7C671A79B7F800C814D3"
+            BuildableName = "Table view demo.app"
+            BlueprintName = "Table view demo"
+            ReferencedContainer = "container:Table view demo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

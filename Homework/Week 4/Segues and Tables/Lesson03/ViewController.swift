@@ -16,7 +16,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         initiateModalSwipeRight()
-        buttonShowTableVC()
     }
     
     func initiateModalSwipeRight() {
@@ -28,27 +27,13 @@ class ViewController: UIViewController {
         self.performSegueWithIdentifier("showSecondVC", sender: self)
         //defines action on swipe
     }
-//    func initiateSegueTap() {
-//        let tapforTableVC = UISwipeGestureRecognizer(target: self, action: "tapOnce:")//sets gesture. 1 tap is default
-//        self.buttonTableVC.addGestureRecognizer(tapTableVC)//assigns to button
-//    }
-//    func tapButtonTableVC() {
-//        self.performSegueWithIdentifier("showTableVC", sender: self)//calls the named seque
-//    }
     
 //set up the seque
     @IBAction func displayTableVC(sender: AnyObject) {
         self.performSegueWithIdentifier("showTableVC", sender: self)
     }
     
-    func buttonShowTableVC() {
-        let tapForTableVC = UITapGestureRecognizer(target: self, action: "displayTableVC:")//sets gesture. 1 tap is default
-//        tapForTableVC.numberOfTapsRequired = 1
-    self.displayTableVC(tapForTableVC)//assigns to button
-    }
-//    func tapButtonTableVC() {
-//        self.performSegueWithIdentifier("showTableVC", sender: self)//calls the named seque
-//    }
+
 
 }
     
