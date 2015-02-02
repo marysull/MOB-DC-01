@@ -13,7 +13,6 @@
 		FBF09C1F1A7D305000678B5B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBF09C1E1A7D305000678B5B /* Images.xcassets */; };
 		FBF09C221A7D305000678B5B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBF09C201A7D305000678B5B /* LaunchScreen.xib */; };
 		FBF09C2E1A7D305000678B5B /* simpleEventTrackerLesson10Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF09C2D1A7D305000678B5B /* simpleEventTrackerLesson10Tests.swift */; };
-		FBF09C381A7D30B500678B5B /* EventsTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF09C371A7D30B500678B5B /* EventsTableTableViewController.swift */; };
 		FBF09C3A1A7D30EC00678B5B /* AddEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF09C391A7D30EC00678B5B /* AddEventViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +37,6 @@
 		FBF09C271A7D305000678B5B /* simpleEventTrackerLesson10Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simpleEventTrackerLesson10Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBF09C2C1A7D305000678B5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBF09C2D1A7D305000678B5B /* simpleEventTrackerLesson10Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simpleEventTrackerLesson10Tests.swift; sourceTree = "<group>"; };
-		FBF09C371A7D30B500678B5B /* EventsTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsTableTableViewController.swift; sourceTree = "<group>"; };
 		FBF09C391A7D30EC00678B5B /* AddEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEventViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,7 +83,6 @@
 				FBF09C191A7D305000678B5B /* ViewController.swift */,
 				FBF09C1B1A7D305000678B5B /* Main.storyboard */,
 				FBF09C391A7D30EC00678B5B /* AddEventViewController.swift */,
-				FBF09C371A7D30B500678B5B /* EventsTableTableViewController.swift */,
 				FBF09C1E1A7D305000678B5B /* Images.xcassets */,
 				FBF09C201A7D305000678B5B /* LaunchScreen.xib */,
 				FBF09C151A7D305000678B5B /* Supporting Files */,
@@ -221,7 +218,6 @@
 				FBF09C1A1A7D305000678B5B /* ViewController.swift in Sources */,
 				FBF09C3A1A7D30EC00678B5B /* AddEventViewController.swift in Sources */,
 				FBF09C181A7D305000678B5B /* AppDelegate.swift in Sources */,
-				FBF09C381A7D30B500678B5B /* EventsTableTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +409,7 @@
 				FBF09C331A7D305000678B5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FBF09C341A7D305000678B5B /* Build configuration list for PBXNativeTarget "simpleEventTrackerLesson10Tests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +418,7 @@
 				FBF09C361A7D305000678B5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

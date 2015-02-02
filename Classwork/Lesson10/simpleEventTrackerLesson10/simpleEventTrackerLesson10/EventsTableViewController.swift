@@ -1,5 +1,5 @@
 //
-//  EventsTableTableViewController.swift
+//  EventsTableViewController.swift
 //  simpleEventTrackerLesson10
 //
 //  Created by Mary Sullivan on 1/31/15.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class EventsTableTableViewController: UITableViewController {
+class EventsTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,8 +30,7 @@ class EventsTableTableViewController: UITableViewController {
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #warning Potentially incomplete method implementation.
         // Return the number of sections.
-        return 0
-    }
+        return 1    }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete method implementation.
