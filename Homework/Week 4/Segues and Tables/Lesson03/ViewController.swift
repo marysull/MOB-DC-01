@@ -11,17 +11,15 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var swipeLabel: UIView!
 
-
-    @IBOutlet weak var displayTableView: UIButton!
+//    @IBOutlet weak var displayTableView: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-         initiateModalSwipeRight()
-        buttonTableVC()
+        initiateModalSwipeRight()
+        buttonShowTableVC()
     }
     
     func initiateModalSwipeRight() {
-       
         let swipeR = UISwipeGestureRecognizer(target: self, action: "swipedRight:")//sets action
         swipeR.direction = UISwipeGestureRecognizerDirection.Right//sets direction
         self.swipeLabel.addGestureRecognizer(swipeR)//names action area
@@ -31,20 +29,26 @@ class ViewController: UIViewController {
         //defines action on swipe
     }
 //    func initiateSegueTap() {
-//        let tapTableVC = UISwipeGestureRecognizer(target: self, action: "tapOnce:")//sets gesture. 1 tap is default
+//        let tapforTableVC = UISwipeGestureRecognizer(target: self, action: "tapOnce:")//sets gesture. 1 tap is default
 //        self.buttonTableVC.addGestureRecognizer(tapTableVC)//assigns to button
 //    }
 //    func tapButtonTableVC() {
 //        self.performSegueWithIdentifier("showTableVC", sender: self)//calls the named seque
 //    }
     
-    func buttonTableVC() {
-        let tapTableVC = UITapGestureRecognizer(target: self, action: "tapTableButtonVC:")//sets gesture. 1 tap is default
-        self.displayTableView.addGestureRecognizer()//assigns to button
-    }
-    func tapButtonTableVC() {
-        self.performSegueWithIdentifier("showTableVC", sender: self)//calls the named seque
+//set up the seque
+    @IBAction func displayTableVC(sender: AnyObject) {
+        self.performSegueWithIdentifier("showTableVC", sender: self)
     }
     
+    func buttonShowTableVC() {
+        let tapForTableVC = UITapGestureRecognizer(target: self, action: "displayTableVC:")//sets gesture. 1 tap is default
+//        tapForTableVC.numberOfTapsRequired = 1
+    self.displayTableVC(tapForTableVC)//assigns to button
+    }
+//    func tapButtonTableVC() {
+//        self.performSegueWithIdentifier("showTableVC", sender: self)//calls the named seque
+//    }
+
 }
     

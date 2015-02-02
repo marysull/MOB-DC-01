@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB60C8261A7C340100A19B7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB60C8251A7C340100A19B7E /* AppDelegate.swift */; };
+		FB60C8281A7C340100A19B7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB60C8271A7C340100A19B7E /* ViewController.swift */; };
+		FB60C82B1A7C340100A19B7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB60C8291A7C340100A19B7E /* Main.storyboard */; };
+		FB60C82D1A7C340100A19B7E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB60C82C1A7C340100A19B7E /* Images.xcassets */; };
+		FB60C8301A7C340100A19B7E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB60C82E1A7C340100A19B7E /* LaunchScreen.xib */; };
+		FB60C83C1A7C340100A19B7E /* SimpleEventTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB60C83B1A7C340100A19B7E /* SimpleEventTrackerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB60C8361A7C340100A19B7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB60C8181A7C340100A19B7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB60C81F1A7C340100A19B7E;
+			remoteInfo = SimpleEventTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB60C8201A7C340100A19B7E /* SimpleEventTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleEventTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB60C8241A7C340100A19B7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB60C8251A7C340100A19B7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB60C8271A7C340100A19B7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB60C82A1A7C340100A19B7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB60C82C1A7C340100A19B7E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FB60C82F1A7C340100A19B7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FB60C8351A7C340100A19B7E /* SimpleEventTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleEventTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB60C83A1A7C340100A19B7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB60C83B1A7C340100A19B7E /* SimpleEventTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleEventTrackerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB60C81D1A7C340100A19B7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB60C8321A7C340100A19B7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB60C8171A7C340100A19B7E = {
+			isa = PBXGroup;
+			children = (
+				FB60C8221A7C340100A19B7E /* SimpleEventTracker */,
+				FB60C8381A7C340100A19B7E /* SimpleEventTrackerTests */,
+				FB60C8211A7C340100A19B7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB60C8211A7C340100A19B7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB60C8201A7C340100A19B7E /* SimpleEventTracker.app */,
+				FB60C8351A7C340100A19B7E /* SimpleEventTrackerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB60C8221A7C340100A19B7E /* SimpleEventTracker */ = {
+			isa = PBXGroup;
+			children = (
+				FB60C8251A7C340100A19B7E /* AppDelegate.swift */,
+				FB60C8271A7C340100A19B7E /* ViewController.swift */,
+				FB60C8291A7C340100A19B7E /* Main.storyboard */,
+				FB60C82C1A7C340100A19B7E /* Images.xcassets */,
+				FB60C82E1A7C340100A19B7E /* LaunchScreen.xib */,
+				FB60C8231A7C340100A19B7E /* Supporting Files */,
+			);
+			path = SimpleEventTracker;
+			sourceTree = "<group>";
+		};
+		FB60C8231A7C340100A19B7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB60C8241A7C340100A19B7E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB60C8381A7C340100A19B7E /* SimpleEventTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB60C83B1A7C340100A19B7E /* SimpleEventTrackerTests.swift */,
+				FB60C8391A7C340100A19B7E /* Supporting Files */,
+			);
+			path = SimpleEventTrackerTests;
+			sourceTree = "<group>";
+		};
+		FB60C8391A7C340100A19B7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB60C83A1A7C340100A19B7E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB60C81F1A7C340100A19B7E /* SimpleEventTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB60C83F1A7C340100A19B7E /* Build configuration list for PBXNativeTarget "SimpleEventTracker" */;
+			buildPhases = (
+				FB60C81C1A7C340100A19B7E /* Sources */,
+				FB60C81D1A7C340100A19B7E /* Frameworks */,
+				FB60C81E1A7C340100A19B7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleEventTracker;
+			productName = SimpleEventTracker;
+			productReference = FB60C8201A7C340100A19B7E /* SimpleEventTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB60C8341A7C340100A19B7E /* SimpleEventTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB60C8421A7C340100A19B7E /* Build configuration list for PBXNativeTarget "SimpleEventTrackerTests" */;
+			buildPhases = (
+				FB60C8311A7C340100A19B7E /* Sources */,
+				FB60C8321A7C340100A19B7E /* Frameworks */,
+				FB60C8331A7C340100A19B7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB60C8371A7C340100A19B7E /* PBXTargetDependency */,
+			);
+			name = SimpleEventTrackerTests;
+			productName = SimpleEventTrackerTests;
+			productReference = FB60C8351A7C340100A19B7E /* SimpleEventTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB60C8181A7C340100A19B7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Mary Sullivan";
+				TargetAttributes = {
+					FB60C81F1A7C340100A19B7E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					FB60C8341A7C340100A19B7E = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = FB60C81F1A7C340100A19B7E;
+					};
+				};
+			};
+			buildConfigurationList = FB60C81B1A7C340100A19B7E /* Build configuration list for PBXProject "SimpleEventTracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB60C8171A7C340100A19B7E;
+			productRefGroup = FB60C8211A7C340100A19B7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB60C81F1A7C340100A19B7E /* SimpleEventTracker */,
+				FB60C8341A7C340100A19B7E /* SimpleEventTrackerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB60C81E1A7C340100A19B7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB60C82B1A7C340100A19B7E /* Main.storyboard in Resources */,
+				FB60C8301A7C340100A19B7E /* LaunchScreen.xib in Resources */,
+				FB60C82D1A7C340100A19B7E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB60C8331A7C340100A19B7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB60C81C1A7C340100A19B7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB60C8281A7C340100A19B7E /* ViewController.swift in Sources */,
+				FB60C8261A7C340100A19B7E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB60C8311A7C340100A19B7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB60C83C1A7C340100A19B7E /* SimpleEventTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB60C8371A7C340100A19B7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB60C81F1A7C340100A19B7E /* SimpleEventTracker */;
+			targetProxy = FB60C8361A7C340100A19B7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB60C8291A7C340100A19B7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB60C82A1A7C340100A19B7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB60C82E1A7C340100A19B7E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB60C82F1A7C340100A19B7E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB60C83D1A7C340100A19B7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB60C83E1A7C340100A19B7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB60C8401A7C340100A19B7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleEventTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB60C8411A7C340100A19B7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleEventTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FB60C8431A7C340100A19B7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimpleEventTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleEventTracker.app/SimpleEventTracker";
+			};
+			name = Debug;
+		};
+		FB60C8441A7C340100A19B7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimpleEventTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleEventTracker.app/SimpleEventTracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB60C81B1A7C340100A19B7E /* Build configuration list for PBXProject "SimpleEventTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB60C83D1A7C340100A19B7E /* Debug */,
+				FB60C83E1A7C340100A19B7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB60C83F1A7C340100A19B7E /* Build configuration list for PBXNativeTarget "SimpleEventTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB60C8401A7C340100A19B7E /* Debug */,
+				FB60C8411A7C340100A19B7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB60C8421A7C340100A19B7E /* Build configuration list for PBXNativeTarget "SimpleEventTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB60C8431A7C340100A19B7E /* Debug */,
+				FB60C8441A7C340100A19B7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB60C8181A7C340100A19B7E /* Project object */;
+}
