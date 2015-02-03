@@ -6,6 +6,12 @@
 //  Copyright (c) 2015 Mary Sullivan. All rights reserved.
 //
 
+//to add a delegate to a text field
+// 1. add UITextFieldDelegate protocol
+// 2. connect Text Field outlet
+// 3. tie textField.delegate = self
+// 4. add the text field method
+
 import UIKit
 
 protocol Campus {
