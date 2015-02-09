@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E69FD19A-7BAC-4960-93DD-13DD89D2EE4B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ProgLoginLesson12</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>10A52EA4FBADB6C746B5260032017E5923CCC696</key>
+		<string>https://github.com/marysull/MOB-DC-01.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Classwork/Lesson12/ProgLoginLesson12/ProgLoginLesson12.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>10A52EA4FBADB6C746B5260032017E5923CCC696</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/marysull/MOB-DC-01.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>10A52EA4FBADB6C746B5260032017E5923CCC696</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>10A52EA4FBADB6C746B5260032017E5923CCC696</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MOB-DC-01</string>
+		</dict>
+	</array>
+</dict>
+</plist>
