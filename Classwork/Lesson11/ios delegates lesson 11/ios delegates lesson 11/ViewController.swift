@@ -18,7 +18,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 //drag from table view to yellow button twice, once for each above for the table view delegate and source.
     //for text field use to get keyboard to go away, UITextFieldDelegate give you many options. Has delegate built in.
     
-    var gaCampuses: [String] = []
+    var gaCampuses: [String] = ["NY", "DC", "Atlanta"]
     
     @IBOutlet weak var campusesTable: UITableView!
     
